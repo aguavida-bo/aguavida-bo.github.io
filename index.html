@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Agua Vida — agua de mesa para hogares, oficinas y negocios en Bolivia.">
+  <meta name="theme-color" content="#0c5ca8">
+  <title>Agua Vida | Agua que acompaña tu vida</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Agua Vida — inicio">
+        <img src="assets/logo.png" alt="Agua Vida" class="brand-logo">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a class="active" href="#top">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Nuestros Productos</a>
+        <a href="#calidad">Calidad</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / CARRUSEL -->
+    <section class="hero" aria-label="Presentación de Agua Vida">
+      <div class="hero-slides">
+        <article class="hero-slide is-active" data-slide="0"
+                 style="--hero-image: url('../assets/hero-home.jpg');">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-copy">
+              <p class="eyebrow">AGUA DE MESA · BOLIVIA</p>
+              <h1>Agua que acompaña<br><span>tu vida</span></h1>
+              <p class="hero-text">Pureza, bienestar y confianza en cada gota.</p>
+              <a class="btn btn-primary" href="#productos">Conoce nuestros productos</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide" data-slide="1"
+                 style="--hero-image: url('../assets/hero-office.jpg');">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-copy">
+              <p class="eyebrow">PARA TU OFICINA</p>
+              <h2>Agua que acompaña<br><span>tu trabajo</span></h2>
+              <p class="hero-text">Una solución práctica para equipos, oficinas y negocios.</p>
+              <a class="btn btn-primary" href="#contacto">Solicitar información</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide hero-slide--blue" data-slide="2">
+          <div class="container hero-content">
+            <div class="hero-copy">
+              <p class="eyebrow">PARA TU HOGAR Y NEGOCIO</p>
+              <h2>Calidad en<br><span>cada gota</span></h2>
+              <p class="hero-text">Presentaciones pensadas para acompañar cada momento.</p>
+              <a class="btn btn-light" href="#calidad">Conoce nuestra calidad</a>
+            </div>
+            <div class="hero-product">
+              <div class="product-glow"></div>
+              <img src="assets/product-20l.jpg" alt="Bidón de 20 litros de Agua Vida">
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <button class="slider-arrow slider-prev" type="button" aria-label="Slide anterior">‹</button>
+      <button class="slider-arrow slider-next" type="button" aria-label="Slide siguiente">›</button>
+
+      <div class="slider-dots" role="tablist" aria-label="Seleccionar presentación">
+        <button class="dot is-active" type="button" role="tab" aria-selected="true" aria-label="Presentación 1"></button>
+        <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Presentación 2"></button>
+        <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Presentación 3"></button>
+      </div>
+    </section>
+
+    <!-- VALUE BAR -->
+    <section class="values" aria-label="Valores de Agua Vida">
+      <div class="container values-grid">
+        <div class="value-item">
+          <span class="value-icon">💧</span>
+          <div><strong>Agua pura</strong><small>y segura</small></div>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">♡</span>
+          <div><strong>Bienestar</strong><small>para tu familia</small></div>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">◌</span>
+          <div><strong>Compromiso</strong><small>con el medio ambiente</small></div>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">✓</span>
+          <div><strong>Calidad</strong><small>en cada gota</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section class="section product-section" id="productos">
+      <div class="container product-layout">
+        <div class="product-visual">
+          <div class="product-stage">
+            <img id="water-bottle" src="assets/product-20l.jpg"
+                 alt="Producto Agua Vida — bidón de 20 litros"
+                 class="water-bottle">
+          </div>
+          <button id="flip-bottle" class="btn btn-outline" type="button">
+            ↻ Girar el bidón
+          </button>
+          <p class="microcopy">La etiqueta forma parte de la misma imagen del bidón: al girarlo, la etiqueta gira con él.</p>
+        </div>
+
+        <div class="product-copy">
+          <p class="section-kicker">NUESTRO PRODUCTO</p>
+          <h2>Bidón de <span>20 litros</span></h2>
+          <p>
+            El producto real mostrado en esta versión inicial. Cuando recibamos
+            las fotografías oficiales del dispensador y de las demás presentaciones,
+            se pueden reemplazar los archivos de <code>assets/</code> sin cambiar la estructura del sitio.
+          </p>
+          <ul class="check-list">
+            <li>Imagen del producto real para la versión inicial</li>
+            <li>Diseño preparado para futuras presentaciones</li>
+            <li>Compatible con móvil, tablet y computadora</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT PREVIEW -->
+    <section class="section section-soft" id="nosotros">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">AGUA VIDA</p>
+          <h2>Una marca que quiere acompañarte <span>cada día.</span></h2>
+        </div>
+        <p>
+          Este bloque queda preparado para incorporar la historia de la empresa,
+          misión, visión, cobertura y la información corporativa oficial cuando
+          Agua Vida dé el visto bueno al contenido.
+        </p>
+      </div>
+    </section>
+
+    <!-- QUALITY -->
+    <section class="section quality-section" id="calidad">
+      <div class="container quality-grid">
+        <div>
+          <p class="section-kicker">CALIDAD</p>
+          <h2>Confianza en <span>cada gota.</span></h2>
+          <p>
+            Aquí podremos colocar posteriormente los procesos de tratamiento,
+            controles de calidad, certificaciones y datos oficiales de la empresa.
+          </p>
+        </div>
+        <div class="quality-card">
+          <div class="quality-number">20<span>L</span></div>
+          <p>Presentación destacada</p>
+          <small>Información oficial pendiente de aprobación.</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="cta" id="contacto">
+      <div class="container cta-inner">
+        <div>
+          <p class="section-kicker">CONTACTO</p>
+          <h2>¿Quieres Agua Vida?</h2>
+          <p>Cuando tengamos los datos oficiales, aquí se conectarán WhatsApp, teléfono, correo y ubicación.</p>
+        </div>
+        <a class="btn btn-light" href="#contacto">Datos de contacto — próximamente</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="assets/logo.png" alt="Agua Vida" class="footer-logo">
+      <p>© <span id="current-year">2026</span> Agua Vida. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
