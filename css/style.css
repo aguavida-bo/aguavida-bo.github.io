@@ -120,7 +120,7 @@ button { font: inherit; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(255,255,255,.94) 0%, rgba(255,255,255,.76) 42%, rgba(255,255,255,.12) 75%);
+  background: linear-gradient(90deg, rgba(255,255,255,.78) 0%, rgba(255,255,255,.45) 35%, rgba(255,255,255,0) 63%);
 }
 .hero-content {
   position: relative;
@@ -424,13 +424,9 @@ button { font: inherit; }
 
   .hero, .hero-slides, .hero-slide, .hero-content { min-height: 620px; }
   .hero-overlay {
-    background: linear-gradient(90deg, rgba(255,255,255,.96) 0%, rgba(255,255,255,.8) 58%, rgba(255,255,255,.25) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,.92) 0%, rgba(255,255,255,.7) 43%, rgba(255,255,255,.08) 100%);
   }
-  .hero-product {
-    right: -6%;
-    opacity: .65;
-    width: 50vw;
-  }
+  .hero-product { right: 0; opacity: 1; width: 43vw; }
   .values-grid { grid-template-columns: repeat(2, 1fr); }
   .value-item:nth-child(2) { border-right: 0; }
   .value-item:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
@@ -440,12 +436,16 @@ button { font: inherit; }
 
 @media (max-width: 600px) {
   .container { width: min(100% - 28px, 1180px); }
-  .hero, .hero-slides, .hero-slide, .hero-content { min-height: 680px; }
-  .hero-slide { background-position: 62% center; }
-  .hero-copy { padding: 70px 0 120px; }
-  .hero h1, .hero h2 { font-size: clamp(2.65rem, 13vw, 4rem); }
-  .hero-text { font-size: 1rem; }
+  .hero, .hero-slides, .hero-slide, .hero-content { min-height: 690px; }
+  .hero-slide { background-size: auto 100%; background-position: 72% center; background-repeat: no-repeat; background-color: #eaf7ff; }
+  .hero-overlay { background: linear-gradient(90deg, rgba(255,255,255,.96) 0%, rgba(255,255,255,.84) 42%, rgba(255,255,255,.12) 100%); }
+  .hero-copy { max-width: 86%; padding: 66px 0 145px; }
+  .hero h1, .hero h2 { font-size: clamp(2.4rem, 10.5vw, 3.4rem); }
+  .hero-text { max-width: 270px; font-size: .96rem; }
+  .hero .btn { max-width: 100%; padding: 11px 16px; font-size: .9rem; }
   .hero-product { display: none; }
+  .slider-dots { bottom: 24px; }
+  .slider-arrow { top: 53%; }
   .slider-arrow { width: 40px; height: 40px; font-size: 1.6rem; }
   .slider-prev { left: 10px; }
   .slider-next { right: 10px; }
