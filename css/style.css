@@ -447,14 +447,14 @@ button { font: inherit; }
   /* Narrow screens and in-app browsers: stack copy above the real product.
      Avoid relying on a desktop-style side-by-side layout at small CSS widths. */
   .hero-slide--blue,
-  .hero-slide--blue .hero-content { min-height: 820px; }
+  .hero-slide--blue .hero-content { min-height: 740px; }
   .hero-slide--blue .hero-content {
     align-items: flex-start;
   }
   .hero-slide--blue .hero-copy {
     width: 100%;
     max-width: 100%;
-    padding: 48px 0 340px;
+    padding: 38px 0 260px;
   }
   .hero-slide--blue .hero h2 { font-size: clamp(2.25rem, 9vw, 3.2rem); }
   .hero-slide--blue .hero-text { max-width: 310px; }
@@ -462,10 +462,10 @@ button { font: inherit; }
     display: grid;
     z-index: 3;
     right: 50%;
-    bottom: 48px;
+    bottom: 58px;
     transform: translateX(50%);
-    width: min(260px, 66vw);
-    height: 300px;
+    width: min(210px, 54vw);
+    height: 230px;
     opacity: 1;
   }
   .hero-slide--blue .hero-product img {
@@ -474,7 +474,7 @@ button { font: inherit; }
     max-height: 100%;
     object-fit: contain;
   }
-  .hero-slide--blue .product-glow { width: 90%; }
+  .hero-slide--blue .product-glow { width: 82%; }
   .hero-slide--blue .btn { position: relative; z-index: 4; }
   .slider-dots { bottom: 24px; }
   .slider-arrow { top: 53%; }
